@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SGRMMI.MainPage">
+
+    <Grid Margin="0,0,0,15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+
+        <Button Grid.Row="0" Grid.ColumnSpan="2" IsEnabled="False" Text="S G R M M I" FontSize="20" TextColor="White" BackgroundColor="LightBlue"></Button>
+
+        <Image Grid.Row="1" Grid.ColumnSpan="2" x:Name="MMImage" Source="https://i0.hdslb.com/bfs/album/f7ca933dee5f9cdf486b3dd399a8649001261965.jpg"></Image>
+        <ActivityIndicator Grid.Row="1" Grid.ColumnSpan="2" x:Name="Lodingg" IsRunning="False" HorizontalOptions="Center" Color="LightBlue"></ActivityIndicator>
+        
+        <Button Grid.Row="2" Grid.Column="0" x:Name="GetImageButton" Text="获取一张" TextColor="White" BackgroundColor="LightBlue" Clicked="GetImageButton_Clicked"></Button>
+        <Button Grid.Row="2" Grid.Column="1" x:Name="SaveImageButton" Text="保存图片" TextColor="White" BackgroundColor="LightBlue" Clicked="SaveImageButton_Clicked"></Button>
+
+        <Button Grid.Row="3" Grid.ColumnSpan="2" x:Name="HelpButton" Text="帮助" TextColor="White" BackgroundColor="LightBlue" Clicked="HelpButton_Clicked"></Button>
+    </Grid>
+
+</ContentPage>

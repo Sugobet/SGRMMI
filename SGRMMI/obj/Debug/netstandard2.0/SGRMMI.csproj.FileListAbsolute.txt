@@ -1,0 +1,15 @@
+D:\C#_project\SGRMMI\SGRMMI\bin\Debug\netstandard2.0\SGRMMI.deps.json
+D:\C#_project\SGRMMI\SGRMMI\bin\Debug\netstandard2.0\SGRMMI.dll
+D:\C#_project\SGRMMI\SGRMMI\bin\Debug\netstandard2.0\ref\SGRMMI.dll
+D:\C#_project\SGRMMI\SGRMMI\bin\Debug\netstandard2.0\SGRMMI.pdb
+D:\C#_project\SGRMMI\SGRMMI\obj\Debug\netstandard2.0\SGRMMI.csprojAssemblyReference.cache
+D:\C#_project\SGRMMI\SGRMMI\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\C#_project\SGRMMI\SGRMMI\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\C#_project\SGRMMI\SGRMMI\obj\Debug\netstandard2.0\SGRMMI.AssemblyInfoInputs.cache
+D:\C#_project\SGRMMI\SGRMMI\obj\Debug\netstandard2.0\SGRMMI.AssemblyInfo.cs
+D:\C#_project\SGRMMI\SGRMMI\obj\Debug\netstandard2.0\SGRMMI.csproj.CoreCompileInputs.cache
+D:\C#_project\SGRMMI\SGRMMI\obj\Debug\netstandard2.0\XamlC.stamp
+D:\C#_project\SGRMMI\SGRMMI\obj\Debug\netstandard2.0\SGRMMI.dll
+D:\C#_project\SGRMMI\SGRMMI\obj\Debug\netstandard2.0\ref\SGRMMI.dll
+D:\C#_project\SGRMMI\SGRMMI\obj\Debug\netstandard2.0\SGRMMI.pdb
+D:\C#_project\SGRMMI\SGRMMI\obj\Debug\netstandard2.0\HelpPage.xaml.g.cs

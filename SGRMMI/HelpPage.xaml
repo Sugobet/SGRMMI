@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SGRMMI.HelpPage">
+
+
+    <Grid Margin="0,0,0,15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Button Grid.Row="0" Grid.ColumnSpan="2" IsEnabled="False" Text="S G R M M I" FontSize="20" TextColor="White" BackgroundColor="LightBlue"></Button>
+
+        <Label Grid.Row="1" Grid.ColumnSpan="2">相信你在使用这个破软件时没有遇到什么麻烦的问题
+相信你也在这个破软件收获了不少纸片人图片
+这些图片均来源自网络的图片api API:http://api.mtyqx.cn/api/random.php
+
+这个软件使用Xamarin.Forms开发，希望你能够加入QQ群支持一下我,以助我开发其他软件
+
+
+                                            祝你身体健康</Label>
+
+        <Button Grid.Row="2" Grid.Column="0" x:Name="JoinQQGroup" Text="加入QQ群" TextColor="White" BackgroundColor="LightBlue" Clicked="JoinQQGroup_Clicked"></Button>
+        <Button Grid.Row="2" Grid.Column="1" x:Name="ConAuthor" Text="联系作者" TextColor="White" BackgroundColor="LightBlue" Clicked="ConAuthor_Clicked"></Button>
+
+        <Button Grid.Row="3" Grid.ColumnSpan="2" x:Name="BackButton" Text="返回" TextColor="White" BackgroundColor="LightBlue" Clicked="BackButton_Clicked"></Button>
+
+    </Grid>
+</ContentPage>
